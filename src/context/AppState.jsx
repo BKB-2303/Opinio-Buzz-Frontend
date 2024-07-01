@@ -13,7 +13,8 @@ const AppState = (props) => {
   const [reviews, setReviews] = useState([]);
   const [starCounts, setStarCounts] = useState({});
   
-  const url = "http://localhost:1000/api";
+  // const url = "http://localhost:1000/api";
+  const url="https://opinio-buzz-backend.onrender.com/api";
 useEffect(() => {
     const lstoken = localStorage.getItem("token");
     if (lstoken) {
