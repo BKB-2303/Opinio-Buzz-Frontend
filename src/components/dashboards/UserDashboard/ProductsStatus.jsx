@@ -136,8 +136,8 @@ const AllProduct = () => {
   const navbarItems = [
     { text: 'Home', link: '/user-dashboard/home' },
     { text: 'Add Product', link: '/user-dashboard/addProduct' },
-    { text: 'Products & Reviews', link: '/user-dashboard/product-status' },
-    { text: 'Products & Status', link: '/user-dashboard/allProduct' },
+    { text: 'Products & Reviews', link: '/user-dashboard/product-review' },
+    { text: 'Products & Status', link: '/user-dashboard/product-status' },
     { text: 'Profile', link: '/user-dashboard/profile' },
   ];
 
