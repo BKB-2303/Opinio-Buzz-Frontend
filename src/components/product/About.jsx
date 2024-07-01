@@ -71,7 +71,7 @@ const About = () => {
             This website was created under the company name Imdad Next Web Private Limited.
           </p>
           <p className="text-gray-600">
-            Founder: Imdad Mamud Hussain
+            Founder: Imdad Hussain Mamud
           </p>
           <a
             href="https://imdadnextweb.com/"
