@@ -49,15 +49,19 @@ const ShowProduct = () => {
     <div className="min-h-screen p-4 flex flex-col items-center">
       <div className="mb-4 flex flex-wrap justify-center space-x-2">
         {categories.map(category => (
-          <button
-            key={category}
-            onClick={() => handleCategoryChange(category)}
-            className={`px-4 py-2 rounded-md ${
-              selectedCategory === category ? 'bg-stone-800 text-white' : 'bg-gray-200 text-gray-700'
-            } transition duration-300 ease-in-out hover:bg-stone-600 hover:text-white`}
-          >
-            {category}
-          </button>
+        <button
+        key={category}
+        onClick={() => handleCategoryChange(category)}
+        className={`px-4 py-2 rounded-md 
+          ${selectedCategory === category ? 'bg-stone-800 text-white' : ' text-gray-700'}
+          transition duration-300 ease-in-out 
+          hover:bg-stone-600 hover:text-white
+          sm:px-3 sm:py-1.5 md:px-3 md:py-1.5 lg:px-4 lg:py-2 xl:px-4 xl:py-2
+        `}
+      >
+        {category}
+      </button>
+      
         ))}
       </div>
 
