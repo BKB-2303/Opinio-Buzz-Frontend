@@ -6,7 +6,7 @@ Opinio Buzz is a product review system that allows users to explore various prod
 
 ## Live Demo
 
-Explore the live demo of Opinio Buzz: [Opinio Buzz Live Demo](https://opinio-buzz-frontend.vercel.app/)
+Explore the live demo of Opinio Buzz: [Opinio Buzz Live Demo](https://opinio-buzz.vercel.app/)
 
 ---
 
