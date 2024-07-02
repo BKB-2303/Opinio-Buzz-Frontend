@@ -107,6 +107,7 @@ useEffect(() => {
       setToken(token);
       setIsAuthenticated(true);
       localStorage.setItem("token", token);
+      localStorage.setItem("role", role);
   
       toast.success(response.data.message, {
         position: "top-right",
